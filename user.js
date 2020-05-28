@@ -1322,7 +1322,7 @@ user_pref("privacy.clearOnShutdown.cache", true);
 user_pref("privacy.clearOnShutdown.cookies", true);
 user_pref("privacy.clearOnShutdown.downloads", true); // see note above
 user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
-user_pref("privacy.clearOnShutdown.history", true); // Browsing & Download History
+user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download History
 user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
 user_pref("privacy.clearOnShutdown.sessions", true); // Active Logins
 user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
@@ -1335,7 +1335,7 @@ user_pref("privacy.cpd.cache", true);
 user_pref("privacy.cpd.cookies", true);
    // user_pref("privacy.cpd.downloads", true); // not used, see note above
 user_pref("privacy.cpd.formdata", true); // Form & Search History
-user_pref("privacy.cpd.history", true); // Browsing & Download History
+user_pref("privacy.cpd.history", false); // Browsing & Download History
 user_pref("privacy.cpd.offlineApps", true); // Offline Website Data
 user_pref("privacy.cpd.passwords", false); // this is not listed
 user_pref("privacy.cpd.sessions", true); // Active Logins
